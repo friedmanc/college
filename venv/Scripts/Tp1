@@ -1,0 +1,11 @@
+"""TP1
+Caleb Friedman Groupe 402
+Compter le nombre de mots
+"""
+
+
+#define des Variables
+def word_count(sentence):
+    return len(sentence.split())
+
+print(word_count(input("Veillez inscrire votre phrase: ")))
